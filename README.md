@@ -1,6 +1,6 @@
 # calendar-application
 
- https://marcus-lopes.github.io/timed-quiz/
+https://marcus-lopes.github.io/calendar-application/
 
 # Description
 
