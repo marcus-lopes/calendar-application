@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Calendar Application</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <div class="container">
+    <!-- Timeblocks go here -->
+    <table class="table">
+      <tr>
+        <td>9am</td>
+        <td><textarea class="textArea" id="past" name="textarea"></textarea></td>
+        <td><button id="btn0" data-index="0" value="calcular">ok</button</td>
+      </tr>
+
+      <tr>
+        <td>10am</td>
+        <td><textarea class="textArea" name="textarea" id="past"></textarea></td>
+        <td><button id="btn1" data-index="1">ok</button</td>
+      </tr>
+
+      <tr>
+        <td>11am</td>
+        <td><textarea class="textArea" name="textarea" id="past"></textarea></td>
+        <td><button id="btn2" data-index="2">ok</button></td>
+      </tr>
+
+      <tr>
+        <td>12pm</td>
+        <td><textarea class="textArea" name="textarea" id="present"></textarea></td>
+        <td><button id="btn3" data-index="3">ok</button</td>
+      </tr>
+
+      <tr>
+        <td>1pm</td>
+        <td><textarea class="textArea" name="textarea" id="future"></textarea></td>
+        <td><button id="btn4" data-index="4">ok</button</td>
+      </tr>
+
+      <tr>
+        <td>2pm</td>
+        <td><textarea class="textArea" name="textarea" id="future"></textarea></td>
+        <td><button id="btn5" data-index="5">ok</button</td>
+      </tr>
+
+      <tr>
+        <td>3pm</td>
+        <td><textarea class="textArea" name="textarea" id="future"></textarea></td>
+        <td><button id="btn6" data-index="6">ok</button</td>
+      </tr>
+
+      <tr>
+        <td>4pm</td>
+        <td><textarea class="textArea" name="textarea" id="future"></textarea></td>
+        <td><button id="btn7" data-index="7">ok</button</td>
+      </tr>
+
+      <tr>
+        <td>5pm</td>
+        <td><textarea class="textArea" name="textarea" id="future"></textarea></td>
+        <td><button id="btn8" data-index="8">ok</button</td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
